@@ -5,6 +5,9 @@ def trova_pari(numeri):
             numeripari.append(num)
     return numeripari
 numeri = []
-num = input("inserisci i numeri: ")
-numeri.append(num)
+while True:
+    num = input("inserisci i numeri: ")
+    if num == 'q':
+        break
+    numeri.append(int (num))
 print(trova_pari(numeri))
