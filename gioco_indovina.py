@@ -9,6 +9,7 @@ while True:
     n_tentativo += 1
     if tentativo == numero_casuale:
         print("Hai vinto al", n_tentativo, "tentativo!!!")
+        break
     elif tentativo<numero_casuale:
         print("il numero è troppo piccolo")
     else:
